@@ -3,6 +3,7 @@ import axios from "axios";
 import { AppContext } from "./ContextProvider";
 
 
+
 // export default function Userpage (props){
 //   const [name,updateName] = useState('Vince');
 //   const [school, updateSchool] = useState('Codesmith');
@@ -40,6 +41,7 @@ function Userpage() {
       <div className="location">Location       {user.user_location}</div>
       <div className="contact">Contact         {user.user_email}</div>
       <div className="bio">About Me      I enjoy hiking, reading, and watching TV.</div>
+      
       </pre>
 
 

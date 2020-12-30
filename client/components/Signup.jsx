@@ -21,7 +21,7 @@ function Signup(props) {
       console.log(res)
       if (res.status === 200) {
         alert("Account successfully created. Return to Login")
-        props.history.push('/')
+        // props.history.push('/') 
       } else {
         alert("Error creating account");
       }
